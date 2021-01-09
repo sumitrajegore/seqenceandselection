@@ -1,5 +1,5 @@
 #!/bin/bash -x
-read -p "enter first number :" 100;
-read -p "enter second number:" 100;
-z=$(($x+$y));
-echo $z
+read -p "enter first number : " x  
+read -p "enter second number: " y 
+z=$(( $x+$y ))
+echo " sum : " $z
